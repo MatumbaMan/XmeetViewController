@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1BA1E891B9B052200EFF076 /* XmeetViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1BA1E881B9B052200EFF076 /* XmeetViewController.h */; };
+		D1BA1E8B1B9B052200EFF076 /* XmeetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1E8A1B9B052200EFF076 /* XmeetViewController.m */; };
+		D1BA1E911B9B052200EFF076 /* libXmeetViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BA1E851B9B052200EFF076 /* libXmeetViewController.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1BA1E921B9B052200EFF076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1BA1E7D1B9B052200EFF076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1BA1E841B9B052200EFF076;
+			remoteInfo = XmeetViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1BA1E831B9B052200EFF076 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D1BA1E891B9B052200EFF076 /* XmeetViewController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D1BA1E851B9B052200EFF076 /* libXmeetViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXmeetViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BA1E881B9B052200EFF076 /* XmeetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XmeetViewController.h; sourceTree = "<group>"; };
+		D1BA1E8A1B9B052200EFF076 /* XmeetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmeetViewController.m; sourceTree = "<group>"; };
+		D1BA1E901B9B052200EFF076 /* XmeetViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmeetViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BA1E961B9B052200EFF076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1BA1E821B9B052200EFF076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BA1E8D1B9B052200EFF076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BA1E911B9B052200EFF076 /* libXmeetViewController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1BA1E7C1B9B052200EFF076 = {
+			isa = PBXGroup;
+			children = (
+				D1BA1E871B9B052200EFF076 /* XmeetViewController */,
+				D1BA1E941B9B052200EFF076 /* XmeetViewControllerTests */,
+				D1BA1E861B9B052200EFF076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1BA1E861B9B052200EFF076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA1E851B9B052200EFF076 /* libXmeetViewController.a */,
+				D1BA1E901B9B052200EFF076 /* XmeetViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1BA1E871B9B052200EFF076 /* XmeetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA1E881B9B052200EFF076 /* XmeetViewController.h */,
+				D1BA1E8A1B9B052200EFF076 /* XmeetViewController.m */,
+			);
+			path = XmeetViewController;
+			sourceTree = "<group>";
+		};
+		D1BA1E941B9B052200EFF076 /* XmeetViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA1E951B9B052200EFF076 /* Supporting Files */,
+			);
+			path = XmeetViewControllerTests;
+			sourceTree = "<group>";
+		};
+		D1BA1E951B9B052200EFF076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA1E961B9B052200EFF076 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1BA1E841B9B052200EFF076 /* XmeetViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BA1E991B9B052200EFF076 /* Build configuration list for PBXNativeTarget "XmeetViewController" */;
+			buildPhases = (
+				D1BA1E811B9B052200EFF076 /* Sources */,
+				D1BA1E821B9B052200EFF076 /* Frameworks */,
+				D1BA1E831B9B052200EFF076 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XmeetViewController;
+			productName = XmeetViewController;
+			productReference = D1BA1E851B9B052200EFF076 /* libXmeetViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1BA1E8F1B9B052200EFF076 /* XmeetViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BA1E9C1B9B052200EFF076 /* Build configuration list for PBXNativeTarget "XmeetViewControllerTests" */;
+			buildPhases = (
+				D1BA1E8C1B9B052200EFF076 /* Sources */,
+				D1BA1E8D1B9B052200EFF076 /* Frameworks */,
+				D1BA1E8E1B9B052200EFF076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1BA1E931B9B052200EFF076 /* PBXTargetDependency */,
+			);
+			name = XmeetViewControllerTests;
+			productName = XmeetViewControllerTests;
+			productReference = D1BA1E901B9B052200EFF076 /* XmeetViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1BA1E7D1B9B052200EFF076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = HouKinglong;
+				TargetAttributes = {
+					D1BA1E841B9B052200EFF076 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D1BA1E8F1B9B052200EFF076 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D1BA1E801B9B052200EFF076 /* Build configuration list for PBXProject "XmeetViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1BA1E7C1B9B052200EFF076;
+			productRefGroup = D1BA1E861B9B052200EFF076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1BA1E841B9B052200EFF076 /* XmeetViewController */,
+				D1BA1E8F1B9B052200EFF076 /* XmeetViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1BA1E8E1B9B052200EFF076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1BA1E811B9B052200EFF076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BA1E8B1B9B052200EFF076 /* XmeetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BA1E8C1B9B052200EFF076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1BA1E931B9B052200EFF076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1BA1E841B9B052200EFF076 /* XmeetViewController */;
+			targetProxy = D1BA1E921B9B052200EFF076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1BA1E971B9B052200EFF076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1BA1E981B9B052200EFF076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1BA1E9A1B9B052200EFF076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D1BA1E9B1B9B052200EFF076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1BA1E9D1B9B052200EFF076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XmeetViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1BA1E9E1B9B052200EFF076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XmeetViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1BA1E801B9B052200EFF076 /* Build configuration list for PBXProject "XmeetViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BA1E971B9B052200EFF076 /* Debug */,
+				D1BA1E981B9B052200EFF076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BA1E991B9B052200EFF076 /* Build configuration list for PBXNativeTarget "XmeetViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BA1E9A1B9B052200EFF076 /* Debug */,
+				D1BA1E9B1B9B052200EFF076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1BA1E9C1B9B052200EFF076 /* Build configuration list for PBXNativeTarget "XmeetViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BA1E9D1B9B052200EFF076 /* Debug */,
+				D1BA1E9E1B9B052200EFF076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1BA1E7D1B9B052200EFF076 /* Project object */;
+}
