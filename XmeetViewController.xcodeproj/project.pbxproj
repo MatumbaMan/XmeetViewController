@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1BA1E891B9B052200EFF076 /* XmeetViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1BA1E881B9B052200EFF076 /* XmeetViewController.h */; };
-		D1BA1E8B1B9B052200EFF076 /* XmeetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1E8A1B9B052200EFF076 /* XmeetViewController.m */; };
-		D1BA1E911B9B052200EFF076 /* libXmeetViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BA1E851B9B052200EFF076 /* libXmeetViewController.a */; };
+		D1BA1EC71B9B05DC00EFF076 /* XmeetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EB91B9B05DC00EFF076 /* XmeetHandler.m */; };
+		D1BA1EC81B9B05DC00EFF076 /* XmeetMembers.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EBB1B9B05DC00EFF076 /* XmeetMembers.m */; };
+		D1BA1EC91B9B05DC00EFF076 /* XmeetMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EBD1B9B05DC00EFF076 /* XmeetMessage.m */; };
+		D1BA1ECA1B9B05DC00EFF076 /* XmeetMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EBF1B9B05DC00EFF076 /* XmeetMessageCell.m */; };
+		D1BA1ECB1B9B05DC00EFF076 /* XmeetTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EC11B9B05DC00EFF076 /* XmeetTools.m */; };
+		D1BA1ECC1B9B05DC00EFF076 /* XmeetUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EC31B9B05DC00EFF076 /* XmeetUserInfo.m */; };
+		D1BA1ECD1B9B05DC00EFF076 /* XmeetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EC61B9B05DC00EFF076 /* XmeetViewController.m */; };
+		D1BA1F6E1B9B0F9D00EFF076 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1F5F1B9B0F9D00EFF076 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1BA1F6F1B9B0F9D00EFF076 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1F611B9B0F9D00EFF076 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1BA1F701B9B0F9D00EFF076 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1F631B9B0F9D00EFF076 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1BA1F711B9B0F9D00EFF076 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1F651B9B0F9D00EFF076 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1BA1F721B9B0F9D00EFF076 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1F671B9B0F9D00EFF076 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1BA1F731B9B0F9D00EFF076 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1F691B9B0F9D00EFF076 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1BA1F741B9B0F9D00EFF076 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1F6D1B9B0F9D00EFF076 /* SRWebSocket.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D1BA1E921B9B052200EFF076 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1BA1E7D1B9B052200EFF076 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1BA1E841B9B052200EFF076;
-			remoteInfo = XmeetViewController;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D1BA1E831B9B052200EFF076 /* CopyFiles */ = {
@@ -29,18 +30,44 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				D1BA1E891B9B052200EFF076 /* XmeetViewController.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D1BA1E851B9B052200EFF076 /* libXmeetViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXmeetViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1BA1E881B9B052200EFF076 /* XmeetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XmeetViewController.h; sourceTree = "<group>"; };
-		D1BA1E8A1B9B052200EFF076 /* XmeetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmeetViewController.m; sourceTree = "<group>"; };
-		D1BA1E901B9B052200EFF076 /* XmeetViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmeetViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1BA1E961B9B052200EFF076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BA1E851B9B052200EFF076 /* libxmeetapi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxmeetapi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BA1EB81B9B05DC00EFF076 /* XmeetHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmeetHandler.h; sourceTree = SOURCE_ROOT; };
+		D1BA1EB91B9B05DC00EFF076 /* XmeetHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmeetHandler.m; sourceTree = SOURCE_ROOT; };
+		D1BA1EBA1B9B05DC00EFF076 /* XmeetMembers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmeetMembers.h; sourceTree = SOURCE_ROOT; };
+		D1BA1EBB1B9B05DC00EFF076 /* XmeetMembers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmeetMembers.m; sourceTree = SOURCE_ROOT; };
+		D1BA1EBC1B9B05DC00EFF076 /* XmeetMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmeetMessage.h; sourceTree = SOURCE_ROOT; };
+		D1BA1EBD1B9B05DC00EFF076 /* XmeetMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmeetMessage.m; sourceTree = SOURCE_ROOT; };
+		D1BA1EBE1B9B05DC00EFF076 /* XmeetMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmeetMessageCell.h; sourceTree = SOURCE_ROOT; };
+		D1BA1EBF1B9B05DC00EFF076 /* XmeetMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmeetMessageCell.m; sourceTree = SOURCE_ROOT; };
+		D1BA1EC01B9B05DC00EFF076 /* XmeetTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmeetTools.h; sourceTree = SOURCE_ROOT; };
+		D1BA1EC11B9B05DC00EFF076 /* XmeetTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmeetTools.m; sourceTree = SOURCE_ROOT; };
+		D1BA1EC21B9B05DC00EFF076 /* XmeetUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmeetUserInfo.h; sourceTree = SOURCE_ROOT; };
+		D1BA1EC31B9B05DC00EFF076 /* XmeetUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmeetUserInfo.m; sourceTree = SOURCE_ROOT; };
+		D1BA1EC41B9B05DC00EFF076 /* XmeetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmeetUtils.h; sourceTree = SOURCE_ROOT; };
+		D1BA1EC51B9B05DC00EFF076 /* XmeetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmeetViewController.h; sourceTree = SOURCE_ROOT; };
+		D1BA1EC61B9B05DC00EFF076 /* XmeetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmeetViewController.m; sourceTree = SOURCE_ROOT; };
+		D1BA1F5D1B9B0F9D00EFF076 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		D1BA1F5E1B9B0F9D00EFF076 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		D1BA1F5F1B9B0F9D00EFF076 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		D1BA1F601B9B0F9D00EFF076 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		D1BA1F611B9B0F9D00EFF076 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		D1BA1F621B9B0F9D00EFF076 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		D1BA1F631B9B0F9D00EFF076 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		D1BA1F641B9B0F9D00EFF076 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		D1BA1F651B9B0F9D00EFF076 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		D1BA1F661B9B0F9D00EFF076 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		D1BA1F671B9B0F9D00EFF076 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		D1BA1F681B9B0F9D00EFF076 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		D1BA1F691B9B0F9D00EFF076 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		D1BA1F6B1B9B0F9D00EFF076 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		D1BA1F6C1B9B0F9D00EFF076 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		D1BA1F6D1B9B0F9D00EFF076 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,14 +78,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1BA1E8D1B9B052200EFF076 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1BA1E911B9B052200EFF076 /* libXmeetViewController.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				D1BA1E871B9B052200EFF076 /* XmeetViewController */,
-				D1BA1E941B9B052200EFF076 /* XmeetViewControllerTests */,
 				D1BA1E861B9B052200EFF076 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,8 +92,7 @@
 		D1BA1E861B9B052200EFF076 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1BA1E851B9B052200EFF076 /* libXmeetViewController.a */,
-				D1BA1E901B9B052200EFF076 /* XmeetViewControllerTests.xctest */,
+				D1BA1E851B9B052200EFF076 /* libxmeetapi.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,27 +100,56 @@
 		D1BA1E871B9B052200EFF076 /* XmeetViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D1BA1E881B9B052200EFF076 /* XmeetViewController.h */,
-				D1BA1E8A1B9B052200EFF076 /* XmeetViewController.m */,
+				D1BA1EB81B9B05DC00EFF076 /* XmeetHandler.h */,
+				D1BA1EB91B9B05DC00EFF076 /* XmeetHandler.m */,
+				D1BA1EBA1B9B05DC00EFF076 /* XmeetMembers.h */,
+				D1BA1EBB1B9B05DC00EFF076 /* XmeetMembers.m */,
+				D1BA1EBC1B9B05DC00EFF076 /* XmeetMessage.h */,
+				D1BA1EBD1B9B05DC00EFF076 /* XmeetMessage.m */,
+				D1BA1EBE1B9B05DC00EFF076 /* XmeetMessageCell.h */,
+				D1BA1EBF1B9B05DC00EFF076 /* XmeetMessageCell.m */,
+				D1BA1EC01B9B05DC00EFF076 /* XmeetTools.h */,
+				D1BA1EC11B9B05DC00EFF076 /* XmeetTools.m */,
+				D1BA1EC21B9B05DC00EFF076 /* XmeetUserInfo.h */,
+				D1BA1EC31B9B05DC00EFF076 /* XmeetUserInfo.m */,
+				D1BA1EC41B9B05DC00EFF076 /* XmeetUtils.h */,
+				D1BA1EC51B9B05DC00EFF076 /* XmeetViewController.h */,
+				D1BA1EC61B9B05DC00EFF076 /* XmeetViewController.m */,
+				D1BA1F5C1B9B0F9D00EFF076 /* JSON */,
+				D1BA1F6A1B9B0F9D00EFF076 /* SocketRocket */,
 			);
 			path = XmeetViewController;
 			sourceTree = "<group>";
 		};
-		D1BA1E941B9B052200EFF076 /* XmeetViewControllerTests */ = {
+		D1BA1F5C1B9B0F9D00EFF076 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				D1BA1E951B9B052200EFF076 /* Supporting Files */,
+				D1BA1F5D1B9B0F9D00EFF076 /* JSON.h */,
+				D1BA1F5E1B9B0F9D00EFF076 /* NSObject+SBJSON.h */,
+				D1BA1F5F1B9B0F9D00EFF076 /* NSObject+SBJSON.m */,
+				D1BA1F601B9B0F9D00EFF076 /* NSString+SBJSON.h */,
+				D1BA1F611B9B0F9D00EFF076 /* NSString+SBJSON.m */,
+				D1BA1F621B9B0F9D00EFF076 /* SBJSON.h */,
+				D1BA1F631B9B0F9D00EFF076 /* SBJSON.m */,
+				D1BA1F641B9B0F9D00EFF076 /* SBJsonBase.h */,
+				D1BA1F651B9B0F9D00EFF076 /* SBJsonBase.m */,
+				D1BA1F661B9B0F9D00EFF076 /* SBJsonParser.h */,
+				D1BA1F671B9B0F9D00EFF076 /* SBJsonParser.m */,
+				D1BA1F681B9B0F9D00EFF076 /* SBJsonWriter.h */,
+				D1BA1F691B9B0F9D00EFF076 /* SBJsonWriter.m */,
 			);
-			path = XmeetViewControllerTests;
-			sourceTree = "<group>";
+			path = JSON;
+			sourceTree = SOURCE_ROOT;
 		};
-		D1BA1E951B9B052200EFF076 /* Supporting Files */ = {
+		D1BA1F6A1B9B0F9D00EFF076 /* SocketRocket */ = {
 			isa = PBXGroup;
 			children = (
-				D1BA1E961B9B052200EFF076 /* Info.plist */,
+				D1BA1F6B1B9B0F9D00EFF076 /* SocketRocket-Prefix.pch */,
+				D1BA1F6C1B9B0F9D00EFF076 /* SRWebSocket.h */,
+				D1BA1F6D1B9B0F9D00EFF076 /* SRWebSocket.m */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
+			path = SocketRocket;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -122,26 +168,8 @@
 			);
 			name = XmeetViewController;
 			productName = XmeetViewController;
-			productReference = D1BA1E851B9B052200EFF076 /* libXmeetViewController.a */;
+			productReference = D1BA1E851B9B052200EFF076 /* libxmeetapi.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		D1BA1E8F1B9B052200EFF076 /* XmeetViewControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1BA1E9C1B9B052200EFF076 /* Build configuration list for PBXNativeTarget "XmeetViewControllerTests" */;
-			buildPhases = (
-				D1BA1E8C1B9B052200EFF076 /* Sources */,
-				D1BA1E8D1B9B052200EFF076 /* Frameworks */,
-				D1BA1E8E1B9B052200EFF076 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D1BA1E931B9B052200EFF076 /* PBXTargetDependency */,
-			);
-			name = XmeetViewControllerTests;
-			productName = XmeetViewControllerTests;
-			productReference = D1BA1E901B9B052200EFF076 /* XmeetViewControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -153,9 +181,6 @@
 				ORGANIZATIONNAME = HouKinglong;
 				TargetAttributes = {
 					D1BA1E841B9B052200EFF076 = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					D1BA1E8F1B9B052200EFF076 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -173,46 +198,33 @@
 			projectRoot = "";
 			targets = (
 				D1BA1E841B9B052200EFF076 /* XmeetViewController */,
-				D1BA1E8F1B9B052200EFF076 /* XmeetViewControllerTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		D1BA1E8E1B9B052200EFF076 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1BA1E811B9B052200EFF076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1BA1E8B1B9B052200EFF076 /* XmeetViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1BA1E8C1B9B052200EFF076 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D1BA1ECC1B9B05DC00EFF076 /* XmeetUserInfo.m in Sources */,
+				D1BA1F731B9B0F9D00EFF076 /* SBJsonWriter.m in Sources */,
+				D1BA1F6F1B9B0F9D00EFF076 /* NSString+SBJSON.m in Sources */,
+				D1BA1ECB1B9B05DC00EFF076 /* XmeetTools.m in Sources */,
+				D1BA1F741B9B0F9D00EFF076 /* SRWebSocket.m in Sources */,
+				D1BA1EC91B9B05DC00EFF076 /* XmeetMessage.m in Sources */,
+				D1BA1F701B9B0F9D00EFF076 /* SBJSON.m in Sources */,
+				D1BA1ECD1B9B05DC00EFF076 /* XmeetViewController.m in Sources */,
+				D1BA1ECA1B9B05DC00EFF076 /* XmeetMessageCell.m in Sources */,
+				D1BA1EC71B9B05DC00EFF076 /* XmeetHandler.m in Sources */,
+				D1BA1F6E1B9B0F9D00EFF076 /* NSObject+SBJSON.m in Sources */,
+				D1BA1F721B9B0F9D00EFF076 /* SBJsonParser.m in Sources */,
+				D1BA1EC81B9B05DC00EFF076 /* XmeetMembers.m in Sources */,
+				D1BA1F711B9B0F9D00EFF076 /* SBJsonBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D1BA1E931B9B052200EFF076 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D1BA1E841B9B052200EFF076 /* XmeetViewController */;
-			targetProxy = D1BA1E921B9B052200EFF076 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D1BA1E971B9B052200EFF076 /* Debug */ = {
@@ -293,7 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = xmeetapi;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -302,38 +314,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = xmeetapi;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D1BA1E9D1B9B052200EFF076 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XmeetViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		D1BA1E9E1B9B052200EFF076 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XmeetViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -354,14 +336,6 @@
 			buildConfigurations = (
 				D1BA1E9A1B9B052200EFF076 /* Debug */,
 				D1BA1E9B1B9B052200EFF076 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		D1BA1E9C1B9B052200EFF076 /* Build configuration list for PBXNativeTarget "XmeetViewControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1BA1E9D1B9B052200EFF076 /* Debug */,
-				D1BA1E9E1B9B052200EFF076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
