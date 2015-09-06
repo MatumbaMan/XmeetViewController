@@ -49,7 +49,11 @@
     _mNickname = [[NSUserDefaults standardUserDefaults]valueForKey:@"user_nickname"];
     if (_mNickname == nil)
         _mNickname = @"";
-    _mNestid = @"14009e12d791e664fc0175aecb31d833";
+    NSString * bd = [[[NSBundle mainBundle]infoDictionary]objectForKey:(NSString *)kCFBundleIdentifierKey];
+    _mNestid = [XmeetTools md5:bd];
+    if (_mNestid == nil)
+        _mNestid = [XmeetTools md5:@"com.xmeet.iosclient"];
+    return [NSString stringWithFormat:@"ws://meet.xpro.im:8080/xgate/websocket/%@?nickname=%@", _mNestid, _mNickname];
     NSString * urlString = [NSString stringWithFormat:@"ws://meet.xpro.im:8080/xgate/websocket/%@?nickname=%@", _mNestid, _mNickname];
     return (NSString *)
     CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
